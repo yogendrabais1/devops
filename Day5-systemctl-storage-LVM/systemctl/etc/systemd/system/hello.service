@@ -1,0 +1,10 @@
+[Unit]
+Description=My Python Background Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/app/hello.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

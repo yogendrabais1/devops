@@ -1,0 +1,9 @@
+[Unit]
+Description=Run ping-google.service every 5 seconds
+
+[Timer]
+OnBootSec=5s
+Unit=ping.google.service
+
+[Install]
+WantedBy=timers.target

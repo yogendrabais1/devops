@@ -1,0 +1,7 @@
+[Unit]
+Description=Ping google once
+
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ping-google.sh
