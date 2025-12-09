@@ -1,5 +1,5 @@
 [Unit]
-Description=Run ping-google.service every 5 seconds
+Description=Run ping.google.service every 5 seconds
 
 [Timer]
 OnBootSec=5s
